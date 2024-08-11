@@ -1,0 +1,8 @@
+list=['jack','jill','tim','dave']
+name=eval(input('type a name:'))
+for i in range(len(list)):
+    if list[i]==name:
+        print(name,'is number',i+1,'on the list')
+        break
+else:
+    print(name,'is not on the list')
